@@ -20,6 +20,9 @@ function App() {
     });
   };
 
+
+
+  
   const deleteContact = (contactId) => {
     setContactDatas((prevContacts) => {
       return prevContacts.filter((contactData) => contactData.id !== contactId);
